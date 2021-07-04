@@ -2,14 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+section{
+    margin-bottom: 150px;
+}
 .banner-section{
     background-image: url(developer-portfolio-master/images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 150px;
+   
 }
 .flexiblity{
     display: flex;
-   
 
 }
 
@@ -50,5 +52,42 @@ h3{
     background-position:right;
     
 }
+.experienc-section{
+    margin-bottom: 150px;
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+}
+.experienc-section h1{
+    margin-left: 5%;
+}
+.exp-items h2{
+    font-size: 35px;
+}
+.exp-items{
+    width: 45%;
+    margin:0 5%;
+    padding: 10px;
+    border-left: 10px solid;
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.255);
+    border-top-right-radius: 10px;
+
+}
 
 
+.full-stack-item{
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+    
+    
+}
+.baby-web-item{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
